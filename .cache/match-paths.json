@@ -1,0 +1,22 @@
+[
+    {
+        "path": "/en/offline-plugin-app-shell-fallback/",
+        "matchPath": "/en/offline-plugin-app-shell-fallback/"
+    },
+    {
+        "path": "/en/minside/",
+        "matchPath": "/en/minside/*"
+    },
+    {
+        "path": "/en/",
+        "matchPath": "/en/"
+    },
+    {
+        "path": "/en/404/",
+        "matchPath": "/en/*"
+    },
+    {
+        "path": "/minside/",
+        "matchPath": "/minside/*"
+    }
+]
