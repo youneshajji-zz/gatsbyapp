@@ -19,6 +19,7 @@ const Users = [
 
 const UserInfo = () => {
 
+  const test = process.env.REACT_APP_CACHELOCATION
   const onVerify = () => {
     // TODO: check if assessmentCopy or SampleAccess from url param, navigate to the respective page
     return navigate("/minside/vurderingseksemplar")
@@ -35,7 +36,7 @@ const UserInfo = () => {
                   <span className="absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200" aria-hidden="true"></span>
                   <div className="relative flex space-x-3">
                     <div className="flex justify-between">
-                      <p className="text-lg font-bold text-black">Profil</p>
+                      <p className="text-lg font-bold text-black">Profil {test}</p>
                     </div>
                     <div className="min-w-0 flex-1 pt-1.5 flex justify-end space-x-4">
                       <p className="text-lg text-indigo-500 underline">Endre</p>
